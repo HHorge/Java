@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stateandbehavior.LocationController">
+   <children>
+      <Button fx:id="right" layoutX="164.0" layoutY="157.0" mnemonicParsing="false" text="Right" onAction="#handleButtonClickRight"/>
+      <Button fx:id="left" layoutX="81.0" layoutY="157.0" mnemonicParsing="false" text="Left" onAction="#handleButtonClickLeft" />
+      <Button fx:id="down" layoutX="117.0" layoutY="157.0" mnemonicParsing="false" text="Down" onAction="#handleButtonClickDown" />
+      <Button fx:id="up" layoutX="125.0" layoutY="131.0" mnemonicParsing="false" text="Up"  onAction="#handleButtonClickUp"/>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Get X position:" fx:id="xPos" onAction="#handleButtonClickGetX"/>
+      <Button fx:id="yPos" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" text="Get Y position:" onAction="#handleButtonClickGetY" />
+      <TextField layoutX="133.0" layoutY="14.0" fx:id="xPosAns" />
+      <TextField layoutX="133.0" layoutY="46.0" fx:id="yPosAns"/>
+   </children>
+</AnchorPane>

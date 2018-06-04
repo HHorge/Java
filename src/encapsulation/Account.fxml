@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="encapsulation.AccountController">
+   <children>
+      <Button fx:id="balanceB" layoutX="81.0" layoutY="98.0" mnemonicParsing="false" text="Balance" onAction="#handleButtonClickBalance"/>
+      <Button fx:id="setInterestB" layoutX="81.0" layoutY="137.0" mnemonicParsing="false" text="Set interest" onAction="#handleButtonClickInterest" />
+      <Button fx:id="depositB" layoutX="81.0" layoutY="175.0" mnemonicParsing="false" text="Deposit" onAction="#handleButtonClickDeposit" />
+      <TextField fx:id="balanceF" layoutX="176.0" layoutY="98.0" />
+      <TextField fx:id="setInterestF" layoutX="176.0" layoutY="137.0" />
+      <TextField fx:id="depositF" layoutX="176.0" layoutY="175.0" />
+      <Button fx:id="withdrawB" layoutX="81.0" layoutY="218.0" mnemonicParsing="false" text="Withdraw"  onAction="#handleButtonClickWithdraw"/>
+      <TextField fx:id="withdrawF" layoutX="176.0" layoutY="218.0" />
+   </children>
+</AnchorPane>
